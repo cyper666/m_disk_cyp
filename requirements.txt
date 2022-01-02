@@ -1,0 +1,4 @@
+Pyrogram
+TgCrypto
+APScheduler==3.7.0
+Pillow

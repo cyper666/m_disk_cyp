@@ -61,7 +61,7 @@ def get_link(__, m:Messages):
     os.remove(f'res/{m.reply_to_message.message_id}.mp4')
 
 scheduler = BackgroundScheduler()
-scheduler.add_job(starting, 'interval' , seconds=60)
+scheduler.add_job(starting, 'interval' , minutes=15)
 
 
 scheduler.start()

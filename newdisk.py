@@ -22,7 +22,7 @@ kutty = Client(ss,
 
 def starting():
     for vid in kutty.search_messages(-483088952, filter='video', limit=1):
-        bv = kutty.copy_message('@mdisk7bot', from_chat_id= -1001707716901, message_id=vid.message_id)
+        bv = kutty.copy_message('@mdisk7bot', from_chat_id= -483088952, message_id=vid.message_id)
         vid.download(file_name=f'res/{bv.message_id}.mp4')
         vid.delete()
         get_thump(f'res/{bv.message_id}.mp4', f'{bv.message_id}.png')

@@ -34,7 +34,7 @@ def starting():
             g = kutty.send_message('@mdisk7bot', text=vid.caption)
         print(g.message_id)
     else:   
-        print('Ok............')
+        print('Ok..............')
     
 
 
